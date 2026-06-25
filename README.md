@@ -1,7 +1,14 @@
+> [!CAUTION]
+> 🛑 **This repository is archived and no longer maintained.**
+>
+> Nylas Mail (originally N1) was open-sourced in 2015 and maintained by Nylas until 2017. It is preserved here for historical reference. Nylas is now an API platform — see [developer.nylas.com](https://developer.nylas.com/). For an actively maintained desktop client, see the [community forks](#forks) listed at the bottom of this README.
+
+---
+
 # Nylas Mail - the open-source, extensible mail client
 ![N1 Screenshot](https://github.com/nylas/nylas-mail/raw/master/screenshot/hero_graphic_mac%402x.png)
 
-**Nylas Mail was an open-source mail client built on the modern web with [Electron](https://github.com/atom/electron), [React](https://facebook.github.io/react/), and [Flux](https://facebook.github.io/flux/).** It was designed to be easy to extend, and many third-party plugins are available that add functionality to the client. 
+**Nylas Mail was an open-source mail client built on the modern web with [Electron](https://github.com/atom/electron), [React](https://react.dev/), and [Flux](https://github.com/facebookarchive/flux).** It was designed to be easy to extend, and many third-party plugins are available that add functionality to the client. 
 
 **⚠️ Nylas Mail was initially released and open-sourced in early 2015 and was maintained by Nylas until Spring 2017.** While Nylas no longer supports Nylas Mail, you can download the latest release or build it from source. There are also **[several forks](#forks)** that are being actively developed and maintained.
 
@@ -37,7 +44,7 @@ This repository contains the full source code to the Nylas Mail client and it's 
 1. [**Client App**](https://github.com/nylas/nylas-mail/tree/master/packages/client-app): The main Electron app for Nylas Mail
    mirrored to open source repo.
 1. [**Client Sync**](https://github.com/nylas/nylas-mail/tree/master/packages/client-sync): The local mailsync engine integreated in Nylas Mail
-1. [**Client Private Plugins**](https://github.com/nylas/nylas-mail/tree/master/packages/client-private-plugins): Private Nylas Mail plugins (like SFDC)
+1. **Client Private Plugins**: Private Nylas Mail plugins (like SFDC)
 1. [**Cloud API**](https://github.com/nylas/nylas-mail/tree/master/packages/cloud-api): The cloud-based auth and metadata APIs for N1
 1. [**Cloud Core**](https://github.com/nylas/nylas-mail/tree/master/packages/cloud-core): Shared code used in all remote cloud services
 1. [**Cloud Workers**](https://github.com/nylas/nylas-mail/tree/master/packages/cloud-workers): Cloud workers for services like send later
@@ -85,20 +92,20 @@ The Nylas Mail user interface is styled using CSS, which means it's easy to modi
 - [Darkside](https://github.com/nylas/nylas-mail/tree/master/packages/client-app/internal_packages/ui-darkside) (designed by [Jamie Wilson](https://github.com/jamiewilson))
 - [Taiga](https://github.com/nylas/nylas-mail/tree/master/packages/client-app/internal_packages/ui-taiga) (designed by [Noah Buscher](https://github.com/noahbuscher))
 - [Ubuntu](https://github.com/nylas/nylas-mail/tree/master/packages/client-app/internal_packages/ui-ubuntu) (designed by [Ahmed Elhanafy](https://github.com/ahmedlhanafy))
-- [Less Is More](https://github.com/nylas/nylas-mail/tree/master/packages/client-app/internal_packages/ui-less-is-more) (designed by [Alexander Adkins](https://github.com/P0WW0W))
+- [Less Is More](https://github.com/nylas/nylas-mail/tree/master/packages/client-app/internal_packages/ui-less-is-more) (designed by Alexander Adkins _(account removed)_)
 
 #### Community Themes
 |       |       |       |
 | ----- | ----- | ----- |
-| [ToogaBooga](https://github.com/brycedorn/N1-ToogaBooga) | [Material](https://github.com/jackiehluo/n1-material) | [Monokai](https://github.com/dcondrey/n1-monokai)  |
+| [ToogaBooga](https://github.com/brycedorn/N1-ToogaBooga) | [Material](https://github.com/jackiehluo/n1-material) | Monokai _(no longer available)_  |
 | [Agapanthus](https://github.com/taniadaniela/n1-agapanthus)—Inbox-inspired theme | [Stripe](https://github.com/oeaeee/n1-stripe)| [Kleinstein](https://github.com/diklein/Kleinstein)—Hides account sidebar|
 | [Arc Dark](https://github.com/varlesh/Nylas-Arc-Dark-Theme)| [Solarized Dark](https://github.com/NSHenry/N1-Solarized-Dark) | [Darkish](https://github.com/dyrnade/N1-Darkish)|
 | [Predawn](https://github.com/adambmedia/N1-Predawn)| [Ido](https://github.com/edipox/n1-ido)—Polymail-inspired theme|[Berend](https://github.com/Frique/N1-Berend) |
 | [ElementaryOS](https://github.com/edipox/elementary-nylas) | [LevelUp](https://github.com/stolinski/level-up-nylas-n1-theme)|[Sunrise](https://github.com/jackiehluo/n1-sunrise) |
 | [BoraBora](https://github.com/arimai/N1-BoraBora) | [Honeyduke](https://github.com/arimai/n1-honeyduke)| [Snow](https://github.com/Wattenberger/N1-snow-theme)|
 |[Hull](https://github.com/unity/n1-hull)|[Express](https://github.com/oeaeee/n1-express)|[DarkSoda](https://github.com/adambullmer/N1-theme-DarkSoda)|
-|[Bemind](https://github.com/bemindinteractive/Bemind-N1-Theme)|[Dracula](https://github.com/dracula/nylas-n1)|[MouseEatsCat](https://github.com/MouseEatsCat/MouseEatsCat-N1)|
-|[Sublime Dark](https://github.com/rishabhkesarwani/Nylas-Sublime-Dark-Theme)|[Firefox](https://github.com/darshandsoni/n1-firefox-theme)|[Gmail](https://github.com/dregitsky/n1-gmail-theme)|
+|[Bemind](https://github.com/bemindinteractive/Bemind-N1-Theme)|[Dracula](https://github.com/dracula/nylas-n1)|MouseEatsCat _(no longer available)_|
+|Sublime Dark _(no longer available)_|[Firefox](https://github.com/darshandsoni/n1-firefox-theme)|[Gmail](https://github.com/dregitsky/n1-gmail-theme)|
 
 #### To install community themes:
 
@@ -127,10 +134,10 @@ Note these are not tested or officially supported by Nylas, but we still think t
 
 |       |       |       |
 | ----- | ----- | ----- |
-|[Jiffy](http://noahbuscher.github.io/N1-Jiffy/)—Insert animated GIFs|[Weather](https://github.com/jackiehluo/n1-weather)|[Todoist](https://github.com/alexfruehwirth/N1TodoistIntegration)|
+|Jiffy _(no longer available)_—Insert animated GIFs|[Weather](https://github.com/jackiehluo/n1-weather)|[Todoist](https://github.com/alexfruehwirth/N1TodoistIntegration)|
 |[Unsubscribe](https://github.com/colinking/n1-unsubscribe)|[Squirt Speed Reader](https://github.com/HarleyKwyn/squirt-reader-N1-plugin/)|[Website Launcher](https://github.com/adriangrantdotorg/nylas-n1-background-webpage)—Opens a URL in separate window|
 |[Cypher](https://github.com/mbilker/cypher)—PGP Encryption|[Avatars](https://github.com/unity/n1-avatars)|[Events Calendar (WIP)](https://github.com/nerdenough/n1-events-calendar)|
-|[Mail in Chat (WIP)](https://github.com/yjchen/mail_in_chat)|[Evernote](https://github.com/grobgl/n1-evernote)|[Wunderlist](https://github.com/miguelrs/n1-wunderlist)|
+|Mail in Chat (WIP) _(no longer available)_|[Evernote](https://github.com/grobgl/n1-evernote)|[Wunderlist](https://github.com/miguelrs/n1-wunderlist)|
 |[Participants Display](https://github.com/kbruccoleri/nylas-participants-display)|[GitHub](https://github.com/ForbesLindesay/N1-GitHub)||
 
 When you install packages, they're moved to ~/.nylas-mail/packages, and Nylas Mail runs apm install on the command line to fetch dependencies listed in the package's package.json
